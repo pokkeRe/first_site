@@ -1,0 +1,132 @@
+/* common */
+
+body {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+h1 , h2 , h3 , p {
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 50px;
+  font-size: 35px;
+  margin-top: 100px;
+}
+
+/* header */
+header .container {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  /* outline: 2px solid red; */
+  align-items: center;
+}
+
+header h1 {
+  font-weight: nomal;
+  font-size: 27px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  padding: 2px 20px;
+  margin: 10px 700px 10px 0;
+}
+
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header ul li + li {
+  margin-left: 30px;
+}
+
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  opacity: 70%;
+}
+
+
+/* main */
+
+/* About */
+
+
+
+main .info {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  margin: 0 auto;
+  /* outline: 2px solid red; */
+}
+
+
+main .icon {
+  border-radius: 50%;
+}
+
+main .content {
+  margin-left: 30px;
+}
+
+.content h3 {
+  margin-bottom: 10px;
+}
+
+
+/* Article */
+
+
+.article {
+  display: flex;
+  width: 85%;
+  /* outline: 2px solid red; */
+  text-align: center;
+  margin: 0 auto;
+}
+
+.post h3 {
+  margin: 10px 0;
+}
+
+.post img {
+  width: 310px;
+  height: 210px;
+}
+
+.article .post + .post + .post {
+  margin: 0 0 0 auto;
+}
+
+.article .post + .post {
+  margin: 0 auto;
+}
+
+.article .post {
+  margin: 0 auto 0 0;
+}
+
+
+/* footer */
+
+footer {
+  padding: 100px 0 10px 0;
+  text-align: center;
+  color: #aaa;
+}
